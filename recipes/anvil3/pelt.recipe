@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "obsidian", "count" : 10 },
+    { "item" : "basic", "count" : 20 },
+    { "item" : "money", "count" : 150 }
+  ],
+  "output" : { "item" : "makeshiftpeltshield", "count" : 1 },
+  "groups" : [ "craftinganvil3", "armours", "all" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "obsidian", "count" : 4 },
+    { "item" : "refinedaegisalt", "count" : 2 },
+    { "item" : "darkwoodmaterial", "count" : 10 }
+  ],
+  "output" : { "item" : "obsidianmeleespear", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons" ]
+}

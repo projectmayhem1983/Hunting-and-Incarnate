@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 35 },
+    { "item" : "oculemon", "count" : 40 },
+    { "item" : "leather", "count" : 20 },
+    { "item" : "money", "count" : 200 }
+  ],
+  "output" : { "item" : "aegisaltoculemonchest", "count" : 1 },
+  "groups" : [ "craftinganvil3", "armours", "all" ]
+}

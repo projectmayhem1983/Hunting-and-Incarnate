@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "obsidian", "count" : 4 },
+    { "item" : "refinedaegisalt", "count" : 2 },
+    { "item" : "huntingspear", "count" : 4 }
+  ],
+  "output" : { "item" : "obsidianhuntingspear", "count" : 4 },
+  "groups" : [ "craftinganvil3", "weapons" ]
+}

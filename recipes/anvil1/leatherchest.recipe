@@ -1,0 +1,7 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 15 }
+  ],
+  "output" : { "item" : "leatherarmorchest", "count" : 1 },
+  "groups" : [ "craftinganvil", "armours", "all" ]
+}

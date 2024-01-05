@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "refinedaegisalt", "count" : 12 },
+   
+    { "item" : "leather", "count" : 10 },
+    { "item" : "money", "count" : 200 }
+  ],
+  "output" : { "item" : "aegisaltoculemonlegs", "count" : 1 },
+  "groups" : [ "craftinganvil3", "armours", "all" ]
+}

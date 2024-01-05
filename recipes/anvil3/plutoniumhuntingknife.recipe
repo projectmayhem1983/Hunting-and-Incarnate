@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "durasteelhuntingknife", "count" : 1 },
+    { "item" : "refinedaegisalt", "count" : 5 }
+  ],
+  "output" : { "item" : "plutoniumhuntingknife", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

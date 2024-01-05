@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "bonematerial", "count" : 10 },
+    { "item" : "bone", "count" : 20 },
+    { "item" : "money", "count" : 50 }
+  ],
+  "output" : { "item" : "makeshiftboneshield", "count" : 1 },
+  "groups" : [ "craftinganvil", "armours", "all" ]
+}

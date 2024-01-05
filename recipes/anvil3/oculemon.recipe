@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 10 },
+    { "item" : "oculemon", "count" : 20 },
+    { "item" : "money", "count" : 200 }
+  ],
+  "output" : { "item" : "makeshiftoculemonshield", "count" : 1 },
+  "groups" : [ "craftinganvil3", "armours", "all" ]
+}

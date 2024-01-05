@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "refinedferozium", "count" : 20 },
+    { "item" : "plantfibre", "count" : 10 }
+  ],
+  "output" : { "item" : "feroziumbow", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

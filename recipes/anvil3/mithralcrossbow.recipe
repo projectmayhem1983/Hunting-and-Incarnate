@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "durasteelbar", "count" : 10 },
+    { "item" : "refinedferozium", "count" : 5 },
+    { "item" : "plantfibre", "count" : 5 }
+  ],
+  "output" : { "item" : "mithralhuntingcrossbow", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

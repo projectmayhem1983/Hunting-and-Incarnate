@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 10 },
+	{ "item" : "oillantern1", "count" : 2 },
+    { "item" : "coalore", "count" : 20 }
+  ],
+  "output" : { "item" : "lanternbackpack", "count" : 1 },
+  "groups" : [ "craftinganvil2", "armours" ]
+}

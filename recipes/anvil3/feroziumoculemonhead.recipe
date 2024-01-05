@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedferozium", "count" : 20 },
+ 
+    { "item" : "money", "count" : 300 }
+  ],
+  "output" : { "item" : "feroziumoculemonhead", "count" : 1 },
+  "groups" : [ "craftinganvil3", "armours", "all" ]
+}

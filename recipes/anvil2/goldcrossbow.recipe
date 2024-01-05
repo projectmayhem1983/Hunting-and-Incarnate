@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "goldbar", "count" : 10 },
+    { "item" : "titaniumbar", "count" : 5 },
+    { "item" : "plantfibre", "count" : 5 }
+  ],
+  "output" : { "item" : "goldhuntingcrossbow", "count" : 1 },
+  "groups" : [ "craftinganvil2", "weapons", "all" ]
+}

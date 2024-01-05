@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "refinedviolium", "count" : 30 },
+    { "item" : "fleshblock", "count" : 40 },
+    { "item" : "money", "count" : 200 }
+  ],
+  "output" : { "item" : "violiumfleshchest", "count" : 1 },
+  "groups" : [ "craftinganvil3", "armours" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 45 },
+    { "item" : "solariumstar", "count" : 10 }
+  ],
+  "output" : { "item" : "solariuminfantrychest", "count" : 1 },
+  "groups" : [ "craftinganvil3", "armours" ]
+}

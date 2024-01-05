@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 20 },
+    { "item" : "fullwood1", "count" : 10 }
+  ],
+  "output" : { "item" : "steelhuntingrifle", "count" : 1 },
+  "groups" : [ "craftinganvil",  "weapons", "all" ]
+}

@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "cobblestonematerial", "count" : 15 },
+    { "item" : "darkwoodmaterial", "count" : 15 },
+    { "item" : "money", "count" : 25 }
+  ],
+  "output" : { "item" : "makeshiftshield", "count" : 1 },
+  "groups" : [ "craftinganvil", "armours", "all" ]
+}

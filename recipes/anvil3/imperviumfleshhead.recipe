@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 20 },
+    { "item" : "fleshblock", "count" : 30 },
+    { "item" : "money", "count" : 300 }
+  ],
+  "output" : { "item" : "imperviumfleshhead", "count" : 1 },
+  "groups" : [ "craftinganvil3", "armours" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "imperviumhuntingknife", "count" : 1 },
+    { "item" : "solariumstar", "count" : 5 }
+  ],
+  "output" : { "item" : "solariumhuntingknife", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

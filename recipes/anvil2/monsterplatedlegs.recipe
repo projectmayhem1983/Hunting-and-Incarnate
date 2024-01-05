@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "alienmeat", "count" : 10 },
+    { "item" : "money", "count" : 100 }
+  ],
+  "output" : { "item" : "monsterplatedlegs", "count" : 1 },
+  "groups" : [ "craftinganvil2", "armours", "all" ]
+}

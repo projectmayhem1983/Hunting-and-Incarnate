@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "feroziumhuntingrifle", "count" : 1 },
+    { "item" : "solariumstar", "count" : 5 }
+  ],
+  "output" : { "item" : "solariumhuntingrifle", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

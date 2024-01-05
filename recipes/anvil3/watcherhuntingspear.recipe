@@ -1,0 +1,9 @@
+{
+  "input" : [
+    { "item" : "oculemon", "count" : 2 },
+    { "item" : "refinedferozium", "count" : 4 },
+    { "item" : "huntingspear", "count" : 4 }
+  ],
+  "output" : { "item" : "watcherhuntingspear", "count" : 4 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 30 },
+    { "item" : "durasteelbar", "count" : 20 }
+  ],
+  "output" : { "item" : "plutoniuminfantrypants", "count" : 1 },
+  "groups" : [ "craftinganvil2", "armours"]
+}

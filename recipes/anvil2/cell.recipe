@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "cellmatter", "count" : 15 },
+    { "item" : "money", "count" : 100 }
+  ],
+  "output" : { "item" : "makeshiftcellshield", "count" : 1 },
+  "groups" : [ "craftinganvil2", "armours", "all" ]
+}

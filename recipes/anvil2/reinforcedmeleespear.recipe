@@ -1,0 +1,10 @@
+{
+  "input" : [
+    
+    { "item" : "ironbar", "count" : 5 },
+	{ "item" : "tungstenbar", "count" : 2 },
+	{ "item" : "darkwoodmaterial", "count" : 10 }
+  ],
+  "output" : { "item" : "reinforcedmeleespear", "count" : 1 },
+  "groups" : [ "craftinganvil2", "weapons" ]
+}

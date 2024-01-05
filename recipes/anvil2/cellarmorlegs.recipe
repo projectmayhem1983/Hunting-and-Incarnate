@@ -1,0 +1,9 @@
+{
+  "input" : [
+    
+    { "item" : "cellmatter", "count" : 5 },
+    { "item" : "money", "count" : 200 }
+  ],
+  "output" : { "item" : "cellarmorlegs", "count" : 1 },
+  "groups" : [ "craftinganvil2", "armours", "all" ]
+}

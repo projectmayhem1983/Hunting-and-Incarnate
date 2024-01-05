@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "fullwood1", "count" : 4 },
+    { "item" : "cobblestonematerial", "count" : 2 }
+  ],
+  "output" : { "item" : "makeshiftmeleespear", "count" : 1 },
+  "groups" : [ "craftinganvil", "weapons" ]
+}

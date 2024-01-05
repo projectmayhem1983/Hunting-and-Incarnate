@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "aegisalthuntingrifle", "count" : 1 },
+    { "item" : "money", "count" : 500 }
+  ],
+  "output" : { "item" : "uraniumhuntingrifle", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

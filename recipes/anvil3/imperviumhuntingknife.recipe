@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "solariumstar", "count" : 10 },
+    { "item" : "tungstenbar", "count" : 5 }
+  ],
+  "output" : { "item" : "imperviumhuntingknife", "count" : 1 },
+  "groups" : [ "craftinganvil3", "weapons", "all" ]
+}

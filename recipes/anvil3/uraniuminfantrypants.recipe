@@ -1,0 +1,12 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 30 },
+    { "item" : "refinedferozium", "count" : 10 },
+    { "item" : "refinedviolium", "count" : 10 },
+   
+    { "item" : "plutoniuminfantrypants", "count" : 1 },
+    { "item" : "money", "count" : 100 }
+  ],
+  "output" : { "item" : "uraniuminfantrypants", "count" : 1 },
+  "groups" : [ "craftingwheel", "armours" ]
+}
