@@ -1,0 +1,40 @@
+{
+  "itemName" : "cellmatterbandage",
+  "rarity" : "Rare",
+  "inventoryIcon" : "cellmatterbandage.png",
+  "description" : "A Cell Matter Bandage for viral infections.",
+  "shortdescription" : "Cell Materia Bandage",
+  "effects" : [ [
+      {
+        "effect" : "medkitheal"
+      },
+      {
+        "effect" : "fireblock",
+        "duration" : 2
+      },
+      {
+        "effect" : "iceblock",
+        "duration" : 2
+      },
+      {
+        "effect" : "electricblock",
+        "duration" : 2
+      },
+      {
+        "effect" : "poisonblock",
+        "duration" : 2
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "bandageuse" ],
+  "blockingEffects" : [
+    "salveheal",
+    "bandageheal",
+    "medkitheal",
+    "nanowrapheal"
+  ],
+
+  "learnBlueprintsOnPickup" : [
+       "fleshbandage"
+  ]
+}

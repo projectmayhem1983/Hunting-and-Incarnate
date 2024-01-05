@@ -1,0 +1,24 @@
+{
+  "itemName" : "cellmateriabandage",
+  "rarity" : "Uncommon",
+  "inventoryIcon" : "cellmateriabandage.png",
+  "description" : "A Cell Materia Bandage for bacterial infections.",
+  "shortdescription" : "Cell Materia Bandage",
+  "effects" : [ [
+      {
+        "effect" : "salveheal"
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "bandageuse" ],
+  "blockingEffects" : [
+    "salveheal",
+    "bandageheal",
+    "medkitheal",
+    "nanowrapheal"
+  ],
+
+  "learnBlueprintsOnPickup" : [
+    "cellmatterbandage"
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "itemName" : "ironbow",
+  "inventoryIcon" : "ironbowicon.png",
+  "price" : 50,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "tooltipKind" : "bow",
+  "category" : "bow",
+  "description" : "An iron hunting bow, monsters killed with a bow drop different items.",
+  "shortdescription" : "Iron Hunting Bow",
+  "twoHanded" : true,
+  "itemTags" : ["weapon", "ranged", "bow"],
+    "level" : 1,
+  
+ "animation" : "/items/active/weapons/bow/bow.animation",
+  "animationParts" : {
+    "bow" : "ironbowfull.png"
+  },
+  "animationCustom" : {
+    "animatedParts" : { "parts" : { "bow" : { "properties" : {
+      "offset" : [0.25, 0]
+    }}}},
+    "sounds" : {
+      "draw" : [ "/sfx/gun/bow_draw1.ogg", "/sfx/gun/bow_draw2.ogg", "/sfx/gun/bow_draw3.ogg" ],
+      "release" : [ "/sfx/gun/bow_loose.ogg" ],
+      "perfectRelease" : [ "/sfx/gun/bow_loose_perfect.ogg" ]
+    }
+  },
+
+  "scripts" : ["/items/active/weapons/bow/bow.lua"],
+
+  
+  "primaryAbilityType" : "bowshot",
+  "primaryAbility" : {
+    "fireOffset" : [1.75, 0.125],
+    "projectileType" : "lightarrow",
+    "powerProjectileType" : "chargedlightarrow",
+    "projectileParameters" : {
+      "power" : 6.81
+    }
+  },
+
+  "altAbilityType" : "zenshot",
+  "altAbility" : {
+    "fireOffset" : [1.75, 0.125],
+    "projectileType" : "lightarrow",
+    "projectileParameters" : {
+      "power" : 8.125
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildbow.lua",
+
+  "learnBlueprintsOnPickup" : [
+    "titaniumbow"
+  ]
+}

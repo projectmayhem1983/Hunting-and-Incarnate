@@ -1,0 +1,20 @@
+{
+  "itemName" : "fleshbandage",
+  "rarity" : "Legendary",
+  "inventoryIcon" : "fleshbandage.png",
+  "description" : "A Flesh Bandage for completely replacing wounds.",
+  "shortdescription" : "Flesh Bandage",
+   "effects" : [ [
+      {
+        "effect" : "nanowrapheal"
+      }
+    ] ],
+  "emote" : "",
+  "emitters" : [ "bandageuse" ],
+  "blockingEffects" : [
+    "salveheal",
+    "bandageheal",
+    "medkitheal",
+    "nanowrapheal"
+  ]
+}
