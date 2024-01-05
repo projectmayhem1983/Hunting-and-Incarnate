@@ -1,0 +1,42 @@
+{
+  "itemName" : "uraniumhuntingknife",
+  "level" : 6,
+ "price" : 120,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A sharp hunting knife, makes monsters drop different loot.",
+  "shortdescription" : "Uranium Hunting Knife",
+  "tooltipKind" : "sword",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword"],
+"inventoryIcon" : "uraniumhuntingknife.png",
+
+ "animation" : "comboshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "uraniumhuntingknife.png"
+  },
+  "animationCustom" : {
+    
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  
+   "elementalType" : "physical",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.67,
+    "baseDps" : 8,
+	"damageConfig" : {
+      "damageSourceKind" : "bow",
+      "statusEffects" : [ ],
+      "knockbackMode" : "aim",
+      "knockback" : 5
+    }
+  },
+   "builder" : "/items/buildscripts/buildunrandweapon.lua"
+
+
+}

@@ -1,0 +1,48 @@
+{
+  "itemName" : "bloodymeleespear",
+  "level" : 4,
+   "price" : 50,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A pike made from blood and cells.",
+  "shortdescription" : "Bloody Pike",
+  "tooltipKind" : "sword",
+  "category" : "spear",
+   "twoHanded" : true,
+  "itemTags" : ["weapon","melee","spear"],
+  "inventoryIcon" : "bloodyspear.png",
+
+ "animation" : "/items/active/weapons/melee/spear/spear.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "bloodyspear.png"
+  },
+  "animationCustom" : { },
+  
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  
+   "elementalType" : "physical",
+   
+   
+  "aimOffset" : -1.0,
+  "primaryAbilityType" : "spearstab",
+  "primaryAbility" : {
+    "scripts" : [],
+    "class" : "SpearStab",
+
+    "fireTime" : 0.9,
+    "baseDps" : 10.5,
+    "damageConfig" : {
+      "damageSourceKind" : "bow",
+      "statusEffects" : [ ],
+      "knockbackMode" : "aim",
+      "knockback" : 16,
+      "timeoutGroup" : "primary"
+    }
+  },
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua",
+   "learnBlueprintsOnPickup" : [
+    "obsidianmeleespear"
+  ]
+}

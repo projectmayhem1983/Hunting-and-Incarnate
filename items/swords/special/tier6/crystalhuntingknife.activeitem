@@ -1,0 +1,42 @@
+{
+  "itemName" : "crystalhuntingknife",
+  "level" : 6,
+  "price" : 4000,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A sharp hunting knife forged out of crystalized metal, makes monsters drop meat and leather.",
+  "shortdescription" : "Crystal Broadsword",
+  "tooltipKind" : "sword",
+ "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+
+  "inventoryIcon" : "crystalhuntingknife.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "crystalhuntingknife.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "physical",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.43,
+    "baseDps" : 20.5,
+	"damageConfig" : {
+      "damageSourceKind" : "bow",
+      "statusEffects" : [ ],
+      "knockbackMode" : "aim",
+      "knockback" : 5
+    }
+  },
+
+  "altAbilityType" : "crystalwave",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

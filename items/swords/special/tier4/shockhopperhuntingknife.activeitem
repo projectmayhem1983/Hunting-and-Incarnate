@@ -1,0 +1,43 @@
+{
+  "itemName" : "shockhopperhuntingknife",
+  "level" : 4,
+  "price" : 1900,
+  "maxStack" : 1,
+  "rarity" : "Rare",
+  "description" : "A sharp hunting knife with new hardware and a paint job, makes monsters drop different loot. Releases an electrified cloud.",
+  "shortdescription" : "Penguin Wing Broadsword",
+  "tooltipKind" : "sword",
+ "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+ "learnBlueprintsOnPickup" : [ "frozenhuntingknife" ],
+
+  "inventoryIcon" : "shockhopperhuntingknife.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "shockhopperhuntingknife.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "electric",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.43,
+    "baseDps" : 20.5,
+	"damageConfig" : {
+      "damageSourceKind" : "bow",
+      "statusEffects" : [ ],
+      "knockbackMode" : "aim",
+      "knockback" : 5
+    }
+  },
+
+  "altAbilityType" : "erchiumthrowersword",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

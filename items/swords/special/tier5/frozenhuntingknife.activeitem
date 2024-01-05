@@ -1,0 +1,43 @@
+{
+  "itemName" : "frozenhuntingknife",
+  "level" : 5,
+  "price" : 1900,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "A sharp hunting knife forged in the coldest depths of the planet, makes monsters drop meat and leather. Shoots deadly Ice Shards.",
+  "shortdescription" : "Everwinter Broadsword",
+  "tooltipKind" : "sword",
+ "category" : "broadsword",
+  "twoHanded" : true,
+  "itemTags" : ["weapon","melee","broadsword"],
+ "learnBlueprintsOnPickup" : [ "crystalhuntingknife" ],
+
+  "inventoryIcon" : "frozenhuntingknife.png",
+
+  "animation" : "/items/active/weapons/melee/broadsword/combobroadsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "frozenhuntingknife.png"
+  },
+  "animationCustom" : { },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+
+  "elementalType" : "ice",
+
+  "primaryAbilityType" : "broadswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.43,
+    "baseDps" : 20.5,
+	"damageConfig" : {
+      "damageSourceKind" : "bow",
+      "statusEffects" : [ ],
+      "knockbackMode" : "aim",
+      "knockback" : 5
+    }
+  },
+
+  "altAbilityType" : "iceshardblast",
+
+  "builder" : "/items/buildscripts/buildunrandweapon.lua"
+}

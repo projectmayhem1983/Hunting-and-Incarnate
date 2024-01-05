@@ -1,0 +1,45 @@
+{ 
+"itemName" : "woodhuntingknife",
+  "level" : 1,
+  "price" : 120,
+  "maxStack" : 1,
+  "rarity" : "Common",
+  "description" : "A sharp hunting knife, makes monsters drop different loot.",
+  "shortdescription" : "Wooden Hunting Knife",
+  "tooltipKind" : "sword",
+  "category" : "shortsword",
+  "twoHanded" : false,
+  "itemTags" : ["weapon","melee","shortsword"],
+"inventoryIcon" : "woodhuntingknife.png",
+
+ "animation" : "comboshortsword.animation",
+  "animationParts" : {
+    "handle" : "",
+    "blade" : "woodhuntingknife.png"
+  },
+  "animationCustom" : {
+    
+  },
+
+  "scripts" : ["/items/active/weapons/melee/meleeweapon.lua"],
+  
+   "elementalType" : "physical",
+
+  "primaryAbilityType" : "shortswordcombo",
+  "primaryAbility" : {
+    "fireTime" : 0.67,
+    "baseDps" : 7,
+	"damageConfig" : {
+      "damageSourceKind" : "bow",
+      "statusEffects" : [ ],
+      "knockbackMode" : "aim",
+      "knockback" : 5
+    }
+  },
+   "builder" : "/items/buildscripts/buildunrandweapon.lua",
+
+  "learnBlueprintsOnPickup" : [
+    "huntingknife",
+    "steelhuntingknife"
+  ]
+}
