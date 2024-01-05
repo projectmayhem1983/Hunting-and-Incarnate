@@ -1,0 +1,53 @@
+{
+  "itemName" : "monsterplatedchest",
+  "inventoryIcon" : "icons.png:chest",
+  "price" : 3200,
+"category" : "chestarmour",
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "A chestplate made with tough monster hide.",
+  "shortdescription" : "Monster Plated Chestguard",
+  "tooltipKind" : "armor",
+
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "level" : 3,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.25
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 5
+    }
+  ],
+
+  "itemTags" : [ "tier3armour" ],
+
+  "learnBlueprintsOnPickup" : [
+    "cellarmorchest"
+  ]
+}

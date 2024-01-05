@@ -1,0 +1,47 @@
+{
+  "itemName" : "cellarmorhead",
+  "inventoryIcon" : "icons.png:head",
+  "price" : 2400,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "An odd helmet made of cells. All hail the amoebas.",
+  "shortdescription" : "Cell Crown",
+  "tooltipKind" : "armor",
+    "category" : "headarmour",
+
+
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 4,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 3
+    }
+  ],
+
+  "itemTags" : [ "tier4armour" ],
+
+  "learnBlueprintsOnPickup" : [
+    "aegisaltoculemonhead",
+    "violiumfleshhead"
+  ]
+}

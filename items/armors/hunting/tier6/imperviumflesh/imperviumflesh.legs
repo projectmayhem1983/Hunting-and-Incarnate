@@ -1,0 +1,41 @@
+{
+  "itemName" : "imperviumfleshlegs",
+  "inventoryIcon" : "icons.png:pants",
+  "price" : 2560,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "An upgraded, Impervium version of the Flesh leggings.",
+  "shortdescription" : "Flesh Impervium Leggings",
+  "tooltipKind" : "armor",
+    "category" : "legarmour",
+
+
+  "maleFrames" : "pants.png",
+  "femaleFrames" : "pants.png",
+
+  "level" : 6,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "acceleratorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.1
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.2
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 2
+    },
+    {
+      "levelFunction" : "acceleratorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 2
+    }
+  ],
+
+  "itemTags" : [ "tier6armour" ]
+}
