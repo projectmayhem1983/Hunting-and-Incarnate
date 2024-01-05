@@ -1,0 +1,39 @@
+{
+  "itemName" : "solariuminfantryhood",
+  "inventoryIcon" : "icons.png:head",
+   "price" : 2560,
+  "maxStack" : 1,
+  "rarity" : "Legendary",
+  "description" : "Solarium-Insulated Hood. Helps avoid head colds and boosts your power.",
+  "shortdescription" : "Solarium-Insulated Hood",
+  "tooltipKind" : "armor",
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+  "level" : 6,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "separatorArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "separatorArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "separatorArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "separatorArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 3
+    }
+  ],
+
+  "itemTags" : [ "tier6armour" ]
+}

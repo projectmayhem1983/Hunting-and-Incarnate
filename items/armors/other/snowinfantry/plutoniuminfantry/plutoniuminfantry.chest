@@ -1,0 +1,54 @@
+{
+  "itemName" : "plutoniuminfantrychest",
+  "inventoryIcon" : "icons.png:chest",
+  "price" : 4000,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Plutonium-Insulated chestpiece. For when a planet's giving you the cold shoulder.",
+  "shortdescription" : "Plutonium-Insulated Chest",
+  "tooltipKind" : "armor",
+   "category" : "chestarmour",
+   
+  "maleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+  "femaleFrames" : {
+    "body" : "chest.png",
+    "backSleeve" : "bsleeve.png",
+    "frontSleeve" : "fsleeve.png"
+  },
+
+ 
+  "level" : 4,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.25
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 5
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 5
+    }
+  ],
+
+  "itemTags" : [ "tier4armour" ],
+
+  "learnBlueprintsOnPickup" : [
+    "uraniuminfantrychest"
+  ]
+}

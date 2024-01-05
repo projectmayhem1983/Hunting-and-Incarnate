@@ -1,0 +1,44 @@
+{
+  "itemName" : "plutoniuminfantrybandana",
+  "inventoryIcon" : "icons.png:head",
+   "price" : 2400,
+  "maxStack" : 1,
+  "rarity" : "Uncommon",
+  "description" : "Plutonium-Insulated bandana. Helps avoid head colds and makes you jump higher.",
+  "shortdescription" : "Plutonium-Insulated Bandana",
+  "tooltipKind" : "armor",
+  "category" : "headarmour",
+  "maleFrames" : "head.png",
+  "femaleFrames" : "head.png",
+  "mask" : "mask.png",
+
+   "level" : 4,
+  "leveledStatusEffects" : [
+    {
+      "levelFunction" : "standardArmorLevelPowerMultiplierMultiplier",
+      "stat" : "powerMultiplier",
+      "baseMultiplier" : 1.15
+    },
+    {
+      "levelFunction" : "standardArmorLevelProtectionMultiplier",
+      "stat" : "protection",
+      "amount" : 0.3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxEnergyMultiplier",
+      "stat" : "maxEnergy",
+      "amount" : 3
+    },
+    {
+      "levelFunction" : "standardArmorLevelMaxHealthMultiplier",
+      "stat" : "maxHealth",
+      "amount" : 3
+    }
+  ],
+
+  "itemTags" : [ "tier4armour" ],
+
+  "learnBlueprintsOnPickup" : [
+    "uraniuminfantrybandana"
+  ]
+}
