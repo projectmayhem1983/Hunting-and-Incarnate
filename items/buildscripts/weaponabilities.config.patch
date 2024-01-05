@@ -1,0 +1,23 @@
+[
+  {
+    "op": "add",
+    "path": "/crystalwave",
+    "value": "/items/active/melee/abilities/broadsword/crystalwave/crystalwave.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/fireballblast",
+    "value": "/items/active/melee/abilities/broadsword/fireballblast/fireballblast.weaponability"
+  },
+  {
+    "op": "add",
+    "path": "/erchiumthrowersword",
+    "value": "/items/active/melee/abilities/broadsword/erchiumthrowersword/erchiumthrowersword.weaponability"
+  },
+  
+  {
+    "op": "add",
+    "path": "/iceshardblast",
+    "value": "/items/active/melee/abilities/broadsword/iceshardblast/iceshardblast.weaponability"
+  }
+]

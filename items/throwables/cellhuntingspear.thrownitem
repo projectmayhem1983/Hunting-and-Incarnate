@@ -1,0 +1,35 @@
+{
+  "itemName" : "cellhuntingspear",
+  "rarity" : "Uncommon",
+   "category" : "throwableItem",
+  "inventoryIcon" : "cellhuntingspear.png",
+  "image" : "cellhuntingspear.png",
+  "shortdescription" : "Cell Spear",
+  "description" : "A throwable hunting spear that penetrates the bloodstream. Causes monsters to drop different loot.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "cellspear",
+  "projectileConfig" : {
+    "speed" : 50,
+    "power" : 175,
+	 "knockback" : 20
+  },
+   "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ],
+
+  "learnBlueprintsOnPickup" : [
+    "obsidianhuntingspear"
+  ]
+}
+

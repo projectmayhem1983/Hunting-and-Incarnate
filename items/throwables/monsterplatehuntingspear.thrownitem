@@ -1,0 +1,35 @@
+{
+  "itemName" : "monsterplatehuntingspear",
+  "rarity" : "Uncommon",
+   "category" : "throwableItem",
+  "inventoryIcon" : "monsterplatehuntingspear.png",
+  "image" : "monsterplatehuntingspear.png",
+  "shortdescription" : "Monster-Plated Spear",
+  "description" : "A plated hunting spear. Causes monsters to drop different loot.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "monsterplatespear",
+  "projectileConfig" : {
+    "speed" : 50,
+    "power" : 125,
+	 "knockback" : 20
+  },
+   "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ],
+
+  "learnBlueprintsOnPickup" : [
+    "cellhuntingspear"
+  ]
+}
+

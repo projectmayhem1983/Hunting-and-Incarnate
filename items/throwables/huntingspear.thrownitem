@@ -1,0 +1,35 @@
+{
+  "itemName" : "huntingspear",
+  "rarity" : "Common",
+   "category" : "throwableItem",
+  "inventoryIcon" : "huntingspear.png",
+  "image" : "huntingspear.png",
+  "shortdescription" : "Cobblestone Spear",
+  "description" : "A throwable hunting spear. Causes monsters to drop different loot.",
+
+  "ammoUsage" : 1,
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "huntingspear",
+  "projectileConfig" : {
+    "speed" : 50,
+    "power" : 50,
+	 "knockback" : 20
+  },
+   "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ],
+
+  "learnBlueprintsOnPickup" : [
+    "bonehuntingspear"
+  ]
+}
+

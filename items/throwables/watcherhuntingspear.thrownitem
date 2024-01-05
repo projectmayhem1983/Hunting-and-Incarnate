@@ -1,0 +1,29 @@
+{
+  "itemName" : "watcherhuntingspear",
+  "rarity" : "Legendary",
+   "category" : "throwableItem",
+  "inventoryIcon" : "watcherhuntingspear.png",
+  "image" : "watcherhuntingspear.png",
+  "shortdescription" : "Watcher's Spear",
+  "description" : "A powerful hunting spear that penetrates flesh with ease. Causes monsters to drop different loot.",
+
+  "edgeTrigger" : true,
+  "windupTime" : 0.0,
+  "cooldown" : 0.4,
+
+  "projectileType" : "watcherspear",
+  "projectileConfig" : {
+    "speed" : 50,
+    "power" : 250,
+	 "knockback" : 20
+  },
+   "periodicActions" : [
+      {
+        "time" : 0,
+        "repeat" : false,
+        "action" : "sound",
+        "options" : [ "/sfx/projectiles/throw_item.ogg" ]
+      }
+    ]
+}
+
