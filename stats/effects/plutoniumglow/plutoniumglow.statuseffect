@@ -1,0 +1,11 @@
+{
+  "name" : "plutoniumglow",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "plutoniumglow.lua"
+  ],
+
+  "animationConfig" : "plutoniumglow.animation"
+}

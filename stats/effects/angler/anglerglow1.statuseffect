@@ -1,0 +1,14 @@
+{
+  "name" : "anglerglow1",
+  "effectConfig" : {},
+  "defaultDuration" : 5,
+
+  "scripts" : [
+    "anglerglow.lua"
+  ],
+
+  "animationConfig" : "anglerglow1.animation",
+
+  "label" : "Angler Fish Light",
+  "icon" : "/interface/statuses/anglerfishcompanion.png"
+}

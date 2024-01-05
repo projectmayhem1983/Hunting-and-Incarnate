@@ -1,0 +1,14 @@
+{
+  "name" : "bat03",
+  "effectConfig" : {
+    "gravityModifier" : 0.4
+  },
+  "defaultDuration" : 15,
+
+  "scripts" : [
+    "bat.lua"
+  ],
+
+  "label" : "Bat [T3]",
+  "icon" : "/interface/statuses/batcompanion.png"
+}

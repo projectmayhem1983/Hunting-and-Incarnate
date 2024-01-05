@@ -1,0 +1,20 @@
+{
+  "projectileName" : "bullethunting",
+  "image" : "bullethunting.png",
+   "physics" : "laser",
+  "animationCycle" : 0.25,
+   "frameNumber" : 1,
+  "damageKind" : "bow",
+  "pointLight" : false,
+   "flippable" : true,
+  "actionOnReap" : [
+    {
+      "action" : "config",
+      "file" : "/projectiles/explosions/bulletexplosion/bulletexplosion.config"
+    }
+  ],
+  "statusEffects" : [ ],
+  "power" : 5.0,
+  "speed" : 150,
+  "knockback" : 0
+}

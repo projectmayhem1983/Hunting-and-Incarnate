@@ -1,0 +1,40 @@
+{
+  "objectName" : "biostudy",
+  "printable" : false,
+  "rarity" : "Legendary",
+  "description" : "Used to produce raw pixels from hunted items.",
+  "shortdescription" : "^violet;Biostudying Device^white;",
+  "race" : "generic",
+  "category" : "crafting",
+  "price" : 200,
+   
+  "interactAction" : "OpenCraftingInterface",
+  "interactData" : {
+    "config" : "/interface/objectcrafting/biostudy.config",
+    "filter" : [ "biostudy" ]
+  },
+
+  "apexDescription" : "I can put items gained through hunting in here to make pixels.",
+  "avianDescription" : "Making pixels out of items gained through hunting. Helpful.",
+  "floranDescription" : "Machine ssstudy hunting drops, make money.",
+  "glitchDescription" : "Statement. Items gained through hunting can be converted into pixels here.",
+  "humanDescription" : "It prints money! Sort of!",
+  "hylotlDescription" : "Yuck, a Floran-like device for turning items gained through hunting into pixels.",
+  "novakidDescription" : "I coulda' jus' burnt this stuff to a crisp, but free loot is better!",
+
+   "inventoryIcon" : "biostudyicon.png",
+  "orientations" : [
+  {
+      "dualImage" : "biostudy.png:<color>.<frame>",
+      
+      "imagePosition" : [-20, 0],
+      "frames" : 8,
+      "animationCycle" : 2.0,
+      
+      "spaceScan" : 0.1,
+      "anchors" : [ "bottom" ]
+
+    }
+  ]
+
+}
