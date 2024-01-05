@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "rawbacon", "count" : 1 }
+  ],
+  "output" : { "item" : "money", "count" : 5 },
+  "groups" : [ "biostudy" ],
+  "duration" : 0.2
+}

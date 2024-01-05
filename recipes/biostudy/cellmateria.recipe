@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "cellmateria", "count" : 1 }
+  ],
+  "output" : { "item" : "money", "count" : 15 },
+  "groups" : [ "biostudy" ],
+  "duration" : 0.2
+}

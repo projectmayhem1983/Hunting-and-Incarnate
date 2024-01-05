@@ -1,0 +1,8 @@
+{
+  "input" : [
+    
+    { "item" : "money", "count" : 500 }
+  ],
+  "output" : { "item" : "erchiumhuntingknife", "count" : 1 },
+  "groups" : [ "weaponrack" ]
+}

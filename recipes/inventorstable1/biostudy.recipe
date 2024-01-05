@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "tungstenbar", "count" : 20 },
+    { "item" : "glassmaterial", "count" : 20 }
+  ],
+  "output" : {
+    "item" : "biostudy",
+    "count" : 1
+  },
+  "groups" : [ "inventorstable","craftingstations", "all" ]
+}

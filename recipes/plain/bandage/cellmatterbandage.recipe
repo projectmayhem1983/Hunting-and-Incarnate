@@ -1,0 +1,11 @@
+{
+  "input" : [
+    { "item" : "cellmateriabandage", "count" : 2 },
+    { "item" : "cellmatter", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "cellmatterbandage",
+    "count" : 2
+  },
+  "groups" : [ "plain", "all", "other" ]
+}

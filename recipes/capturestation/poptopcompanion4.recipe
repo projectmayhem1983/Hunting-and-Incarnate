@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "companionpoptoptier2", "count" : 1 },
+    { "item" : "money", "count" : 500 }
+  ],
+  "output" : { "item" : "companionpoptoptier4", "count" : 1 },
+  "groups" : [ "capturestation", "all" ]
+}

@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "leather", "count" : 1 }
+  ],
+  "output" : { "item" : "money", "count" : 10 },
+  "groups" : [ "biostudy" ],
+  "duration" : 0.2
+}

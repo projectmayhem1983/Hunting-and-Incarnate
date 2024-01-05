@@ -1,0 +1,8 @@
+{
+  "input" : [
+    { "item" : "companionanglertier4", "count" : 1 },
+    { "item" : "money", "count" : 1000 }
+  ],
+  "output" : { "item" : "companionanglertier6", "count" : 1 },
+  "groups" : [ "capturestation", "all" ]
+}
