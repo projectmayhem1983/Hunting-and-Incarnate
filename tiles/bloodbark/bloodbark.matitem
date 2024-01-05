@@ -1,0 +1,12 @@
+{
+  "itemName" : "bloodbark",
+  "rarity" : "Common",
+  "inventoryIcon" : "bloodbarkmaterial.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "Rough and unrefined, this wood is oozing blood.",
+  "shortdescription" : "Blood Bark",
+  "glitchDescription" : "Valor. I have no blood to water the tree!",
+  "floranDescription" : "Floran love red ssssap from tree.",
+  "learnBlueprintsOnPickup" : [ "bloodbarkplank", "fleshyleaves" ],
+  "materialId" : 1713
+}

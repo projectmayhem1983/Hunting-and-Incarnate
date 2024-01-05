@@ -1,0 +1,23 @@
+{
+  "materialId" : 1715,
+  "materialName" : "fleshyleaves",
+  "particleColor" : [250, 225, 225, 255],
+  "itemDrop" : "fleshyleaves",
+  "description" : "A pile of horrific, bloody, fleshy leaves. I can build with them or sift them to find special insects.",
+  "shortdescription" : "Fleshy Foliage",
+  "category": "material",
+  "glitchdescription" : "Indifference. Glitch are made of metal, not flesh. We have seen worse. I can build with them, or sift them to find special insects.",
+  "florandescription" : "Floran feasssst on leaves. Insssstead I can build with them, or sssssift them to find ssssspecial inssssects.",
+  "footstepSound" : "/sfx/blocks/footstep_brains.wav",
+  "health" : 2,
+  "damageTable" : "/tiles/flammableDamage.config",
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "fleshyleaves.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

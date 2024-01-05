@@ -1,0 +1,21 @@
+{
+  "materialId" : 1714,
+  "materialName" : "bloodbarkplank",
+  "category": "material",
+  "particleColor" : [150, 50, 50, 255],
+  "itemDrop" : "bloodbarkplank",
+  "description" : "These planks are oozing blood.",
+  "shortdescription" : "Blood Bark Planks",
+  "footstepSound" : "/sfx/blocks/footstep_wood.wav",
+  "health" : 6,
+  "damageTable" : "/tiles/flammableDamage.config",
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "bloodbarkplank.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "materialId" : 1713,
+  "materialName" : "bloodbark",
+  "particleColor" : [150, 50, 50, 255],
+  "itemDrop" : "bloodbark",
+  "description" : "Rough and unrefined, this wood is oozing blood.",
+  "shortdescription" : "Blood Bark",
+  "category": "material",
+  "glitchDescription" : "Valor. I have no blood to water the tree!",
+  "floranDescription" : "Floran lovessss red ssssap from tree.",
+  "footstepSound" : "/sfx/blocks/footstep_wood.wav",
+  "health" : 6,
+  "damageTable" : "/tiles/flammableDamage.config",
+  "renderTemplate" : "/tiles/classicmaterialtemplate.config",
+  "renderParameters" : {
+    "texture" : "bloodbark.png",
+    "variants" : 5,
+    "lightTransparent" : false,
+    "multiColored" : false,
+    "occludesBelow" : true,
+    "zLevel" : 0
+  }
+}

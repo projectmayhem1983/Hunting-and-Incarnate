@@ -1,0 +1,10 @@
+{
+  "input" : [
+    { "item" : "bloodbark", "count" : 1 }
+  ],
+  "output" : {
+    "item" : "bloodbarkplank",
+    "count" : 3
+  },
+  "groups" : [ "beestation", "mod", "materials", "all" ]
+}

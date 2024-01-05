@@ -1,0 +1,12 @@
+{
+  "itemName" : "bloodbarkplank",
+  "rarity" : "Common",
+  "inventoryIcon" : "bloodbarkplankmaterial.png",
+  "dropCollision" : [-2.5, -2.0, 2.5, 2.0],
+  "description" : "These planks are oozing blood.",
+  "shortdescription" : "Blood Bark Planks",
+  "glitchDescription" : "Query. I wonder who had their blood spilled to produce these planks.",
+  "floranDescription" : "Floran love red ssssap covering planks.",
+
+  "materialId" : 1714
+}
