@@ -1,0 +1,54 @@
+{
+  "animationParts" : { },
+  "animationCustom" : {
+    "sounds" : {
+      "physicalimpact" : [ "/sfx/gun/grenadeblast_ice2.ogg" ]
+    }
+  },
+
+  "ability" : {
+    "name" : "Crystal Wave",
+    "type" : "crystalwave",
+    "scripts" : ["/items/active/melee/abilities/broadsword/crystalwave/greatwave.lua"],
+    "class" : "GreatWave",
+
+    "energyUsage" : 75.0,
+
+    "cooldownTime" : 2,
+
+    "projectileType" : "crystalshockwave",
+    "projectileParameters" : {
+      "power" : 5,
+      "knockback" : 60,
+      "knockbackMode" : "facing",
+      "onlyHitTerrain" : false
+    },
+    "shockWaveBounds" : [-0.4, -1.375, 0.4, 0.0],
+    "shockwaveHeight" : 1.375,
+    "maxDistance" : 40,
+
+    "impactLine" : [ [1.25, -1.5], [1.25, -4.5] ],
+    "impactWeaponOffset" : 0.75,
+
+    "stances" : {
+      "windup" : {
+        "duration" : 0.3,
+        "armRotation" : 90,
+        "weaponRotation" : -10,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : true
+      },
+      "fire" : {
+        "duration" : 0.15,
+        "armRotation" : -45,
+        "weaponRotation" : -55,
+        "twoHanded" : true,
+
+        "allowRotate" : false,
+        "allowFlip" : false
+      }
+    }
+  }
+}
